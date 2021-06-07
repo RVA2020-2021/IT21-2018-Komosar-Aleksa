@@ -33,7 +33,7 @@ public class ProjekatRestController {
 		//sada ubacujemo zavisnosti da iz jedne klase pozivamo metode koje se nalaze negde drugo
 		//metodama iz jpa pristupamo preko projekaRepositorija - injekotvanje
 		
-		//getMapping za usmeravanje na browseru i prosledjujemo end point ovoj anotaciji s
+		//getMapping za usmeravanje na browseru i prosledjujemo end point ovoj anotaciji sss
 		@GetMapping("projekat")
 		@ApiOperation(value="Vraća kolekciju svih projekata iz baze podataka")
 		public Collection<Projekat> getProjekti() {
