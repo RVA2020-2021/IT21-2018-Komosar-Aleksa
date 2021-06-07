@@ -27,7 +27,7 @@ public class ProjekatRestController {
 	
 		@Autowired //anotacija za injekciju zavisnosti i to je injektovanje kroz properti, ovde je properti projekatRep logicno, i sad mozemo pozivati sve metode iz jparepository pomocu ovog dole polja
 		private ProjekatRepository projekatRepository;
-		
+		//ko
 		@Autowired
 		private JdbcTemplate jdbcTemplate;
 		//sada ubacujemo zavisnosti da iz jedne klase pozivamo metode koje se nalaze negde drugo
