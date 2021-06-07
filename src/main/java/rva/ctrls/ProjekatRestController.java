@@ -24,7 +24,7 @@ import rva.repository.ProjekatRepository;
 @RestController //a
 @Api(tags = {"Projekat CRUD operacije"})
 public class ProjekatRestController {
-	//aaaaaa
+	//aaaaaaaa
 		@Autowired //anotacija za injekciju zavisnosti i to je injektovanje kroz properti, ovde je properti projekatRep logicno, i sad mozemo pozivati sve metode iz jparepository pomocu ovog dole polja
 		private ProjekatRepository projekatRepository;
 		//ko
@@ -33,7 +33,7 @@ public class ProjekatRestController {
 		//sada ubacujemo zavisnosti da iz jedne klase pozivamo metode koje se nalaze negde drugo
 		//metodama iz jpa pristupamo preko projekaRepositorija - injekotvanje
 		
-		//getMapping za usmeravanje na browseru i prosledjujemo end point ovoj anotaciji s
+		//getMapping za usmeravanje na browseru i prosledjujemo end point ovoj anotaciji sss
 		@GetMapping("projekat")
 		@ApiOperation(value="Vraća kolekciju svih projekata iz baze podataka")
 		public Collection<Projekat> getProjekti() {
