@@ -24,7 +24,7 @@ import rva.repository.ProjekatRepository;
 @RestController //a
 @Api(tags = {"Projekat CRUD operacije"})
 public class ProjekatRestController {
-	//aaaaaa
+	//aaaaaaaa
 		@Autowired //anotacija za injekciju zavisnosti i to je injektovanje kroz properti, ovde je properti projekatRep logicno, i sad mozemo pozivati sve metode iz jparepository pomocu ovog dole polja
 		private ProjekatRepository projekatRepository;
 		//ko
